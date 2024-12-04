@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/plusMi"
+        android:title="+" />
+    <item
+        android:id="@+id/minusMi"
+        android:title="-" />
+    <item
+        android:id="@+id/multMi"
+        android:title="*" />
+    <item
+        android:id="@+id/divideMi"
+        android:title="/" />
+    <item
+        android:id="@+id/clearMi"
+        android:title="C" />
+</menu>
