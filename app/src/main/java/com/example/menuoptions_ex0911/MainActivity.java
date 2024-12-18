@@ -77,12 +77,12 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "Divided fields", Toast.LENGTH_SHORT).show();
             }
 
-            if ((total > 1000000) || (total < -1000000)) {
+            if (((total > 1000000) || (total < -1000000)) && (id == R.id.multMi || id == R.id.divideMi)) {
                 bigNumSimplifier(total);
-            } else if(total > -1 || total < 1) {
+            } else if(total > -1 && total < 1) {
                 ansTv.setText(total + "");
             } else{
-                String.format("%.2f", total);
+                ansTv.setText(String.format("%.2f", total));
             }
         }
 
